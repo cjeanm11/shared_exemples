@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Create a minimal PDF structure
-echo "%PDF-1.4
+echo "%PDF-1.4   
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
@@ -17,7 +16,7 @@ stream
 BT
 /F1 24 Tf
 100 700 Td
-(Hello, World!) Tj
+(Hello, WorldTj
 ET
 endstream
 endobj
@@ -26,12 +25,12 @@ endobj
 endobj
 xref
 0 6
-0000000000 65535 f 
-0000000010 00000 n 
-0000000060 00000 n 
-0000000116 00000 n 
-0000000177 00000 n 
-0000000266 00000 n 
+0000000000 65535 f
+0000000010 00000 n
+0000000060 00000 n
+0000000116 00000 n
+0000000177 00000 n
+0000000266 00000 n
 trailer
 << /Size 6 /Root 1 0 R >>
 startxref
